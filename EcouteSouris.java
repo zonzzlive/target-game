@@ -9,6 +9,7 @@ public class EcouteSouris implements MouseListener {
     }
 
     public void mouseClicked(MouseEvent e) {
+        //System.out.println("[souris] clicked " + pos(e));
         cible.computeScore(e.getX(), e.getY());
     }
     public void mouseEntered(MouseEvent e) {
